@@ -13,7 +13,7 @@ $ yarn add sign-api-wykop
 ## Import
 
 ```javascript
-const { signApi } = require("sign-api-wykop");
+const { signApi, wykopRequest } = require("sign-api-wykop");
 ```
 
 ## Usage
