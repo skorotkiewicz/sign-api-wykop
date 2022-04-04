@@ -1,0 +1,31 @@
+{
+  "name": "sign-api-wykop",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sebastian Korotkiewicz",
+  "license": "MIT",
+  "keywords": [
+    "wykop",
+    "api",
+    "sign"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorotkiewicz/sign-api-wykop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skorotkiewicz/sign-api-wykop/issues"
+  },
+  "homepage": "https://github.com/skorotkiewicz/sign-api-wykop#readme",
+  "scripts": {
+    "test": "jest",
+    "prepare": "yarn test"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "jest": "^27.5.1",
+    "md5.js": "^1.3.5",
+    "qs": "^6.9.7"
+  }
+}
