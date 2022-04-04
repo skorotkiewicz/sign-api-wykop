@@ -28,8 +28,6 @@ const wykopRequest = (
     url: url,
     headers: {
       apisign: signApi(request, params, APPKEY, SECRET),
-      // "User-Agent": "wykop-nodejs",
-      // "Content-Type": "application/x-www-form-urlencoded",
     },
     data: qs.stringify(params),
   });
